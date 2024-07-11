@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(155, 144, 136);
+    font: optional;
+}
+
+h1{
+text-decoration: crimson;
+color: rgb(0, 217, 255);
+}
+
+h2{
+color: rgba(0, 38, 255, 0.452);
+text-align: center;
+font-size: medium;
+
+}
+div{
+    display: inline;
+}
+h1{
+    background-color: rgb(167, 15, 15);
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    position: relative;
+    bottom: 10px;
+}
+#div{
+    position: relative;
+    bottom: 10px;
+}
+
+header {
+   background-color: rgba(165, 42, 42, 0.493);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: green:
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    position: absolute;
+    border: 2px solid rgb(18, 122, 100);
+    display: none;
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown-menu a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.repartindo a{
+    display: inline;
+}
+
+h2 {
+    font-size: 1.5rem;
+    
+}
+
+main {
+    margin: auto;
+    width: 90vw;
+}
+
+main li {
+    font-size: 1.5rem;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.layout-nomes {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.layout-nomes li {
+    margin: 10px 70px;
+}
+
+.div a{
+      color: blueviolet;
+}
+.dedilhadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
